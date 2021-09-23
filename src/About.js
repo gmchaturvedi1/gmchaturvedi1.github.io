@@ -66,7 +66,7 @@ export default function About() {
    <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
     <Grid item xs={12}>
      <Avatar variant="rounded" className={classes.dp}>
-      <img alt="Display Picture" src={about.picture} layout="fill" style={{ minWidth: 70, minHeight: 70 }} width={70} height={70} />
+      <img alt="Display Picture" src={about.picture} layout="fill" style={{ width: '100%', height: '100%' }} />
      </Avatar>
     </Grid>
     <Grid container item xs={12} spacing={2} justify="center">

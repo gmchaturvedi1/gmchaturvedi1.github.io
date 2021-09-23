@@ -81,7 +81,7 @@ export default function Skills() {
     <Hidden mdDown>
      <Fade in={animate} style={{ transitionDelay: '100ms' }}>
       <div>
-       <img alt="Skills" src="/skill.svg" width="1139" height="655" />
+       <img alt="Skills" src="/skill.svg" style={{ width: '100%', height: '100%' }} />
       </div>
      </Fade>
     </Hidden>

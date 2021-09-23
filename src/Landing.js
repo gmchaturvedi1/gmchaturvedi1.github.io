@@ -80,7 +80,7 @@ export default function Landing() {
    <Hidden mdDown>
     <Fade in={true} style={{ transitionDelay: '100ms' }}>
      <Grid item lg={6}>
-      <img src="/landing.svg" alt="Landing" width="900.94" height="787" />
+      <img src="/landing.svg" alt="Landing" style={{ width: '100%', height: '100%' }} />
      </Grid>
     </Fade>
    </Hidden>

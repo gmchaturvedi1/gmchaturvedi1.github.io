@@ -77,7 +77,7 @@ export default function Experience() {
     <Hidden mdDown>
      <Fade in={animate} style={{ transitionDelay: '250ms' }}>
       <div>
-       <img alt="Experience" src="/experience.svg" width="996.46" height="828.18" />
+       <img alt="Experience" src="/experience.svg" style={{ width: '100%', height: '100%' }} />
       </div>
      </Fade>
     </Hidden>
@@ -97,7 +97,7 @@ export default function Experience() {
             <CardHeader
              avatar={
               <Avatar variant="rounded">
-               <img alt={`${organization} logo`} src={thumbnail} layout="fill" />
+               <img alt={`${organization} logo`} src={thumbnail} layout="fill" style={{ width: '100%', height: '100%' }} />
               </Avatar>
              }
              title={organization}

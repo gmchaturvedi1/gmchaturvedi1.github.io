@@ -40,7 +40,7 @@ export default function Projects({ data }) {
     <Hidden mdDown>
      <Fade in={animate} style={{ transitionDelay: '250ms' }}>
       <div>
-       <img alt="Projects" src="/projects.svg" width="1144" height="617.32" />
+       <img alt="Projects" src="/projects.svg" style={{ width: '100%', height: '100%' }} />
       </div>
      </Fade>
     </Hidden>
