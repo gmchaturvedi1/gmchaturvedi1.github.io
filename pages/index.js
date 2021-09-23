@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
-import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger } from '@material-ui/core';
+import { AppBar, Container, IconButton, Toolbar, Typography, useScrollTrigger } from '@mui/material';
 import { ThemeContext } from '../src/theme';
+import { makeStyles } from '@mui/styles';
 import Landing from '../src/Landing';
 import Skills from '../src/Skills';
-import Projects from '../src/Projects';
+//import Projects from '../src/Projects';
 import Experience from '../src/Experience';
 import About from '../src/About';
 import { name, projects } from '../data.json';
@@ -44,10 +45,10 @@ export async function getStaticProps() {
  };
 }
 
-export default function Index({ projects }) {
+export default function Index() {
  const classes = useStyles();
 
- const { theme, toggleTheme } = useContext(ThemeContext);
+ // const { theme, toggleTheme } = useContext(ThemeContext);
 
  const trigger = useScrollTrigger({ disableHysteresis: true });
 
@@ -58,16 +59,16 @@ export default function Index({ projects }) {
      <Typography variant="h6" className={classes.root}>
       {name}
      </Typography>
-     <IconButton edge="end" color="inherit" onClick={toggleTheme}>
+     {/* <IconButton edge="end" color="inherit" onClick={toggleTheme}>
       {theme.palette.type === 'dark' ? '☀️' : '🌑'}
-     </IconButton>
+     </IconButton> */}
     </Toolbar>
    </AppBar>
-   <Toolbar className={classes.toolbar} />
+   <Toolbar />
    <Container>
     <Landing />
     <Skills />
-    <Projects data={projects} />
+    {/* <Projects data={projects} /> */}
     <Experience />
     <About />
    </Container>

@@ -14,16 +14,27 @@
   "lint": "next lint"
  },
  "dependencies": {
+  "@emotion/cache": "^11.4.0",
+  "@emotion/react": "^11.4.1",
+  "@emotion/server": "^11.4.0",
+  "@emotion/styled": "^11.3.0",
+  "@mui/icons-material": "^5.0.1",
+  "@mui/material": "^5.0.1",
+  "@mui/styles": "^5.0.1",
+  "@primer/octicons-react": "^15.2.0",
   "next": "11.1.2",
   "react": "17.0.2",
   "react-dom": "17.0.2",
-  "replace-in-file": "^6.2.0"
+  "react-typed": "^1.2.0",
+  "replace-in-file": "^6.2.0",
+  "simple-icons": "^5.15.0"
  },
  "devDependencies": {
   "@types/react": "17.0.24",
+  "@types/simple-icons": "^5.8.0",
   "eslint": "7.32.0",
   "eslint-config-next": "11.1.2",
   "gh-pages": "^3.2.3",
-  "typescript": "4.4.3"
+  "typescript": "latest"
  }
 }

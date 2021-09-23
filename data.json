@@ -1,0 +1,134 @@
+{
+ "name": "Gajendra Chaturvedi",
+ "landing": {
+  "title": "Hi, I'm Gajendra",
+  "subtitles": ["Full-stack developer 🌐", "Cross-platform developer 📱💻", "Exploring Blockchain, ☁️", "Beginner in Rust ♾️", "Just getting started 📈"],
+  "professionalDetails": [
+   {
+    "alt": "Gajendra Chaturvedi",
+    "icon": "linkedin",
+    "link": "https://www.linkedin.com/in/gmchaturvedi"
+   },
+   {
+    "alt": "Gajendra",
+    "icon": "stackoverflow",
+    "link": "https://stackoverflow.com/users/6261048/gajendra-nath-chaturvedi"
+   },
+   {
+    "alt": "gajendra",
+    "icon": "github",
+    "link": "https://github.com/gmchaturvedi1"
+   },
+   {
+    "alt": "Email",
+    "icon": "gmail",
+    "link": "mailto:gmchaturvedi@gmail.com,gmchaturvedi@aol.com"
+   }
+  ]
+ },
+ "skills": {
+  "Languages known": ["JavaScript", "HTML5", "CSS3", "TypeScript", "Nodejs", "Graphql"],
+  "Frontend": ["React", "Redux", "Next.js", "Gatsby", "Netlify", "Vercel", "Material-UI"],
+  "Backend, Database and Cloud": [
+   "Node.js",
+   "Express",
+   "MongoDB",
+   "MySQL",
+   "PostgreSQL",
+   {
+    "alt": "Azure",
+    "icon": "microsoftazure"
+   }
+  ],
+  "Mobile": [
+   {
+    "alt": "React_Native",
+    "icon": "react",
+    "backgroundColor": "#424242"
+   },
+   "Expo",
+   "Android",
+   "Flutter"
+  ]
+ },
+ "projects": {
+  "baseURI": "https://api.github.com/repos/gmchaturvedi1",
+  "repositories": ["Genrealize", "Portfolio", "cosmicom", "Discord-Google-Drive-Bot", "GitHits", "1DBM"]
+ },
+ "experience": {
+  "Work Experience": [
+   {
+    "organization": "Turing",
+    "role": "Full Stack Developer",
+    "type": "Contractor",
+    "startDate": "July 2021",
+    "endDate": "present",
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "url": "https://turing.com/",
+    "thumbnail": "/turing.svg"
+   },
+   {
+    "organization": "Tulip Tech",
+    "role": "Full Stack Developer(Remote)",
+    "type": "Consultant",
+    "startDate": "June2020",
+    "endDate": "June2021",
+    "city": "London",
+    "state": "London",
+    "country": "UK",
+    "url": "https://tulip-tech.com/",
+    "thumbnail": "/tuliptech-logo-png.png"
+   },
+   {
+    "organization": "SGM TECHOLOGIES",
+    "role": "Founder,Tech Enterpreneur",
+    "type": "Founder",
+    "startDate": "July 2004",
+    "endDate": "present",
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "url": "https://sgm4u.in",
+    "thumbnail": "/"
+   }
+  ]
+ },
+ "about": {
+  "description": "I am a full-stack cross-platform app developer.My professional skills are: JavaScript, Node.js, React.js,Graphql, Mongodb,Html5, CSS3/SCSS, Git.I try to keep abreast of web development new trends. I strive to make meaningful applications with the best UI practices.",
+  "picture": "/profile.jpg",
+  "social": [
+   {
+    "alt": "gmchaturvedi",
+    "icon": "twitter",
+    "link": "https://twitter.com/gmchaturvedi"
+   },
+   {
+    "alt": "gmchaturvedi#5752",
+    "icon": "discord",
+    "link": "https://discord.com/"
+   }
+  ]
+ },
+ "theme": {
+  "light": {
+   "palette": {
+    "type": "light",
+    "background": {
+     "paper": "#fff",
+     "default": "#fafafa"
+    }
+   }
+  },
+  "dark": {
+   "palette": {
+    "type": "dark",
+    "background": {
+     "paper": "#303030",
+     "default": "#212121"
+    }
+   }
+  }
+ }
+}

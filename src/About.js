@@ -1,17 +1,18 @@
-import { Grid, makeStyles, Typography, Tooltip, Avatar } from '@material-ui/core';
+import { Grid, Typography, Tooltip, Avatar } from '@mui/material';
 import { about } from '../data.json';
+import { makeStyles } from '@mui/styles';
 import simpleIcons from 'simple-icons';
 import clsx from 'clsx';
-import Image from 'next/image';
+//import Image from 'next/image';
 import { iconify } from './util';
-import Cancel from '@material-ui/icons/Cancel';
+import Cancel from '@mui/icons-material/Cancel';
 
 const dpx = about.social.length * 10 - 2;
 
 const socialDetails = about.social.map(({ alt, icon, link }) => {
  const ic = simpleIcons.get(iconify(icon)) || {
   hex: '424242',
-  component: <Cancel color="white" fontSize={36} />,
+  component: <Cancel style={{ color: 'fff', fontSize: 36 }} />,
  };
  return {
   alt,
@@ -65,7 +66,7 @@ export default function About() {
    <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
     <Grid item xs={12}>
      <Avatar variant="rounded" className={classes.dp}>
-      <Image alt="Display Picture" src={about.picture} layout="fill" />
+      <img alt="Display Picture" src={about.picture} layout="fill" style={{ minWidth: 70, minHeight: 70 }} width={70} height={70} />
      </Avatar>
     </Grid>
     <Grid container item xs={12} spacing={2} justify="center">
